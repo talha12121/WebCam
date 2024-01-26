@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webcam Example</title>
+  </head>
+  <body>
+    <div
+      id="webcam_div"
+      style="
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        height: 500px;
+        border: 1px solid red;
+      "
+    >
+     </div>
+    <div style="display: flex; justify-content: space-around">
+      <button onclick="openCamera()" style="padding: 4px; margin: 10px auto">
+        Open Webcam
+      </button>
+
+      <button onclick="takePicture()" style="padding: 4px; margin: 10px auto">
+        Take Picture
+      </button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
